@@ -1,0 +1,40 @@
+.image-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+.raw-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-day {
+  display: flex;
+  justify-content: space-around;
+  background: rgba(0, 0, 150, 0.4);
+  margin: 5px 0;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.weather-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather-icon p {
+  margin-bottom: 0px;
+}
+.weather-icon img {
+  height: 31px;
+}
+
+.min-max-temp {
+  display: flex;
+}
+.max {
+  font-weight: 700;
+  font-size: large;
+}
